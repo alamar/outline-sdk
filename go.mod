@@ -3,6 +3,7 @@ module github.com/alamar/outline-sdk
 go 1.20
 
 require (
+	github.com/Jigsaw-Code/outline-sdk v0.0.0-00010101000000-000000000000
 	github.com/eycorsican/go-tun2socks v1.16.11
 	github.com/google/go-licenses v1.6.0
 	github.com/google/gopacket v1.1.19
@@ -14,7 +15,6 @@ require (
 )
 
 require (
-	github.com/Jigsaw-Code/outline-sdk v0.0.0-00010101000000-000000000000 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/go-logr/logr v1.2.0 // indirect

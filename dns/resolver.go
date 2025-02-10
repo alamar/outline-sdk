@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/transport/tls"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport/tls"
 	"golang.org/x/net/dns/dnsmessage"
 )
 
@@ -343,7 +343,7 @@ func NewHTTPSResolver(sd transport.StreamDialer, resolverAddr string, url string
 		return conn, nil
 	}
 	// TODO: add mechanism to close idle connections.
-	// Copied from Intra: https://github.com/Jigsaw-Code/Intra/blob/d3554846a1146ae695e28a8ed6dd07f0cd310c5a/Android/tun2socks/intra/doh/doh.go#L213-L219
+	// Copied from Intra: https://github.com/alamar/Intra/blob/d3554846a1146ae695e28a8ed6dd07f0cd310c5a/Android/tun2socks/intra/doh/doh.go#L213-L219
 	httpClient := http.Client{
 		Transport: &http.Transport{
 			DialContext:           dialContext,
