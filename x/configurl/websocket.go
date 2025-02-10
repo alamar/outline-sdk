@@ -22,8 +22,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/x/websocket"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/x/websocket"
 )
 
 type wsConfig struct {

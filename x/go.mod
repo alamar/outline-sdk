@@ -3,7 +3,6 @@ module github.com/alamar/outline-sdk/x
 go 1.22
 
 require (
-	github.com/alamar/outline-sdk v1.0.0
 	// Use github.com/Psiphon-Labs/psiphon-tunnel-core@staging-client as per
 	// https://github.com/Psiphon-Labs/psiphon-tunnel-core/?tab=readme-ov-file#using-psiphon-with-go-modules
 	github.com/Psiphon-Labs/psiphon-tunnel-core v1.0.11-0.20240619172145-03cade11f647
@@ -20,10 +19,13 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 )
 
+require github.com/alamar/outline-sdk v1.0.1
+
 require (
 	filippo.io/bigmod v0.0.1 // indirect
 	filippo.io/keygen v0.0.0-20230306160926-5201437acf8e // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20170702084017-28f7e881ca57 // indirect
+	github.com/Jigsaw-Code/outline-sdk v0.0.18-0.20241106233708-faffebb12629 // indirect
 	github.com/Psiphon-Labs/bolt v0.0.0-20200624191537-23cedaef7ad7 // indirect
 	github.com/Psiphon-Labs/goptlib v0.0.0-20200406165125-c0e32a7a3464 // indirect
 	github.com/Psiphon-Labs/psiphon-tls v0.0.0-20240424193802-52b2602ec60c // indirect
@@ -47,6 +49,7 @@ require (
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/juju/ratelimit v1.0.2 // indirect
 	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/libp2p/go-reuseport v0.4.0 // indirect
 	github.com/miekg/dns v1.1.44-0.20210804161652-ab67aa642300 // indirect
 	github.com/mroth/weightedrand v1.0.0 // indirect
@@ -84,4 +87,3 @@ require (
 )
 
 replace github.com/eycorsican/go-tun2socks => github.com/kayrus/go-tun2socks v1.16.20
-replace github.com/Jigsaw-Code/outline-sdk => github.com/alamar/outline-sdk v1.0.0

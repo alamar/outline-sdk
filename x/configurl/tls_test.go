@@ -17,7 +17,7 @@ package configurl
 import (
 	"testing"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport/tls"
+	"github.com/alamar/outline-sdk/transport/tls"
 	"github.com/stretchr/testify/require"
 )
 

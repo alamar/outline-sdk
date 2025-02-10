@@ -22,7 +22,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport"
 	"github.com/stretchr/testify/require"
 )
 

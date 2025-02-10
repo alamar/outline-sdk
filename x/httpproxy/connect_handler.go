@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/x/configurl"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/x/configurl"
 )
 
 type sanitizeErrorDialer struct {

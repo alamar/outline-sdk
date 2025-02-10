@@ -26,9 +26,9 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/x/configurl"
-	"github.com/Jigsaw-Code/outline-sdk/x/websocket"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/x/configurl"
+	"github.com/alamar/outline-sdk/x/websocket"
 	"github.com/lmittmann/tint"
 	"golang.org/x/term"
 )

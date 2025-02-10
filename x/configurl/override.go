@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport"
 )
 
 func registerOverrideStreamDialer(r TypeRegistry[transport.StreamDialer], typeID string, newSD BuildFunc[transport.StreamDialer]) {

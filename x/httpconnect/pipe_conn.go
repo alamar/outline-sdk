@@ -16,7 +16,7 @@ package httpconnect
 
 import (
 	"errors"
-	"github.com/Jigsaw-Code/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport"
 	"io"
 )
 

@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport"
 )
 
 type pathHandler struct {

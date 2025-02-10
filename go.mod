@@ -14,6 +14,7 @@ require (
 )
 
 require (
+	github.com/Jigsaw-Code/outline-sdk v0.0.0-00010101000000-000000000000 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/go-logr/logr v1.2.0 // indirect
@@ -44,4 +45,5 @@ require (
 )
 
 replace github.com/eycorsican/go-tun2socks => github.com/kayrus/go-tun2socks v1.16.20
-replace github.com/Jigsaw-Code/outline-sdk => github.com/alamar/outline-sdk v1.0.0
+
+replace github.com/Jigsaw-Code/outline-sdk => github.com/alamar/outline-sdk v1.0.1

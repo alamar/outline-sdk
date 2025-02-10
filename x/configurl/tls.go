@@ -20,8 +20,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/transport/tls"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport/tls"
 )
 
 func registerTLSStreamDialer(r TypeRegistry[transport.StreamDialer], typeID string, newSD BuildFunc[transport.StreamDialer]) {

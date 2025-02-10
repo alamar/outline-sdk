@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/transport/split"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport/split"
 )
 
 func registerSplitStreamDialer(r TypeRegistry[transport.StreamDialer], typeID string, newSD BuildFunc[transport.StreamDialer]) {

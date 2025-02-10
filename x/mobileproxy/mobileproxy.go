@@ -31,10 +31,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/x/configurl"
-	"github.com/Jigsaw-Code/outline-sdk/x/httpproxy"
-	"github.com/Jigsaw-Code/outline-sdk/x/smart"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/x/configurl"
+	"github.com/alamar/outline-sdk/x/httpproxy"
+	"github.com/alamar/outline-sdk/x/smart"
 )
 
 // Proxy enables you to get the actual address bound by the server and stop the service when no longer needed.
@@ -155,7 +155,7 @@ type StreamDialer struct {
 var configModule = configurl.NewDefaultProviders()
 
 // NewStreamDialerFromConfig creates a [StreamDialer] based on the given config.
-// The config format is specified in https://pkg.go.dev/github.com/Jigsaw-Code/outline-sdk/x/configurl#hdr-Config_Format.
+// The config format is specified in https://pkg.go.dev/github.com/alamar/outline-sdk/x/configurl#hdr-Config_Format.
 func NewStreamDialerFromConfig(transportConfig string) (*StreamDialer, error) {
 	dialer, err := configModule.NewStreamDialer(context.Background(), transportConfig)
 	if err != nil {
@@ -206,7 +206,7 @@ func toWriter(logWriter LogWriter) io.Writer {
 // that will use the selected strategy.
 // It uses testDomains to find a strategy that works when accessing those domains.
 // The strategies to search are given in the searchConfig. An example can be found in
-// https://github.com/Jigsaw-Code/outline-sdk/x/examples/smart-proxy/config.yaml
+// https://github.com/alamar/outline-sdk/x/examples/smart-proxy/config.yaml
 func NewSmartStreamDialer(testDomains *StringList, searchConfig string, logWriter LogWriter) (*StreamDialer, error) {
 	logBytesWriter := toWriter(logWriter)
 	// TODO: inject the base dialer for tests.

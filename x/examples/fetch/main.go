@@ -30,7 +30,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Jigsaw-Code/outline-sdk/x/configurl"
+	"github.com/alamar/outline-sdk/x/configurl"
 	"github.com/lmittmann/tint"
 	"github.com/quic-go/quic-go"
 	"github.com/quic-go/quic-go/http3"

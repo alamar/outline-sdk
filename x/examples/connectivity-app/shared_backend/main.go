@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/transport/shadowsocks"
-	"github.com/Jigsaw-Code/outline-sdk/x/config"
-	"github.com/Jigsaw-Code/outline-sdk/x/connectivity"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport/shadowsocks"
+	"github.com/alamar/outline-sdk/x/config"
+	"github.com/alamar/outline-sdk/x/connectivity"
 
 	_ "golang.org/x/mobile/bind"
 )

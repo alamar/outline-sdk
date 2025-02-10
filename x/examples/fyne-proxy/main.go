@@ -29,9 +29,9 @@ import (
 	"fyne.io/fyne/v2/layout"
 	"fyne.io/fyne/v2/theme"
 	"fyne.io/fyne/v2/widget"
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/x/config"
-	"github.com/Jigsaw-Code/outline-sdk/x/httpproxy"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/x/config"
+	"github.com/alamar/outline-sdk/x/httpproxy"
 )
 
 type runningProxy struct {
@@ -191,7 +191,7 @@ func main() {
 			container.NewVBox(
 				widget.NewLabelWithStyle("Local address", fyne.TextAlignLeading, fyne.TextStyle{Bold: true}),
 				addressEntry,
-				widget.NewRichTextFromMarkdown("**Transport config** ([format](https://pkg.go.dev/github.com/Jigsaw-Code/outline-sdk/x/configurl#hdr-Config_Format))"),
+				widget.NewRichTextFromMarkdown("**Transport config** ([format](https://pkg.go.dev/github.com/alamar/outline-sdk/x/configurl#hdr-Config_Format))"),
 				configEntry,
 				container.NewHBox(layout.NewSpacer(), startStopButton),
 				widget.NewLabelWithStyle("Status", fyne.TextAlignLeading, fyne.TextStyle{Bold: true}),

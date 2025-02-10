@@ -17,8 +17,8 @@ package configurl
 import (
 	"context"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/transport/socks5"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport/socks5"
 )
 
 func registerSOCKS5StreamDialer(r TypeRegistry[transport.StreamDialer], typeID string, newSD BuildFunc[transport.StreamDialer]) {

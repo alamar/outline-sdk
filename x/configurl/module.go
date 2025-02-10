@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport"
 )
 
 // ProviderContainer contains providers for the creation of network objects based on a config. The config is

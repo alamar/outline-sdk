@@ -31,11 +31,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Jigsaw-Code/outline-sdk/dns"
-	"github.com/Jigsaw-Code/outline-sdk/transport"
-	"github.com/Jigsaw-Code/outline-sdk/x/configurl"
-	"github.com/Jigsaw-Code/outline-sdk/x/connectivity"
-	"github.com/Jigsaw-Code/outline-sdk/x/report"
+	"github.com/alamar/outline-sdk/dns"
+	"github.com/alamar/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/x/configurl"
+	"github.com/alamar/outline-sdk/x/connectivity"
+	"github.com/alamar/outline-sdk/x/report"
 	"github.com/lmittmann/tint"
 	"golang.org/x/term"
 )

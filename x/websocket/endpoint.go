@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Jigsaw-Code/outline-sdk/transport"
+	"github.com/alamar/outline-sdk/transport"
 	"github.com/gorilla/websocket"
 )
 
