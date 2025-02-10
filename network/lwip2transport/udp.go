@@ -57,6 +57,7 @@ func (h *udpHandler) ReceiveTo(tunConn lwip.UDPConn, data []byte, destAddr *net.
 	reqSender, ok := h.senders[laddr]
 	if !ok {
 		if reqSender, err = h.newSession(tunConn); err != nil {
+			h.mu.Unlock()
 			return
 		}
 		h.senders[laddr] = reqSender

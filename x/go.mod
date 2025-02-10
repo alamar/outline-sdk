@@ -82,3 +82,5 @@ require (
 	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 )
+
+replace github.com/eycorsican/go-tun2socks => github.com/kayrus/go-tun2socks v1.16.20

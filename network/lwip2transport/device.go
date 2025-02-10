@@ -80,7 +80,7 @@ func ConfigureDevice(sd transport.StreamDialer, pp network.PacketProxy) (network
 	inst = &lwIPDevice{
 		tcp:   newTCPHandler(sd),
 		udp:   newUDPHandler(pp),
-		stack: lwip.NewLWIPStack(),
+		stack: lwip.NewLWIPStack(packetMTU),
 		done:  make(chan struct{}),
 		rdBuf: make(chan []byte),
 		rdN:   make(chan int),

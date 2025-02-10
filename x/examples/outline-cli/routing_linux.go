@@ -113,6 +113,7 @@ func setupIpRule(svrIp string, routingTable, routingPriority int) error {
 	ipRule.Invert = true
 
 	if err := netlink.RuleAdd(ipRule); err != nil {
+		netlink.RuleDel(ipRule)
 		return fmt.Errorf("failed to add IP rule (table %v, dst %v): %w", ipRule.Table, ipRule.Dst, err)
 	}
 	logging.Info.Printf("ip rule 'from all not to %v via table %v' created\n", ipRule.Dst, ipRule.Table)

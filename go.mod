@@ -42,3 +42,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
 )
+
+replace github.com/eycorsican/go-tun2socks => github.com/kayrus/go-tun2socks v1.16.20
