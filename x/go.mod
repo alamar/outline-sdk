@@ -19,7 +19,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 )
 
-require github.com/alamar/outline-sdk v1.0.1
+require github.com/alamar/outline-sdk v1.0.2
 
 require (
 	filippo.io/bigmod v0.0.1 // indirect
