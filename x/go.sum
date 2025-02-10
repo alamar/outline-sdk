@@ -6,8 +6,6 @@ github.com/AndreasBriese/bbloom v0.0.0-20170702084017-28f7e881ca57 h1:CVuXDbdzPW
 github.com/AndreasBriese/bbloom v0.0.0-20170702084017-28f7e881ca57/go.mod h1:bOvUY6CB00SOBii9/FifXqc0awNKxLFCL/+pkDPuyl8=
 github.com/BurntSushi/toml v1.3.2 h1:o7IhLm0Msx3BaB+n3Ag7L8EVlByGnpq14C4YWiu/gL8=
 github.com/BurntSushi/toml v1.3.2/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
-github.com/Jigsaw-Code/outline-sdk v0.0.18-0.20241106233708-faffebb12629 h1:sHi1X4vwtNNBUDCbxynGXe7cM/inwTbavowHziaxlbk=
-github.com/Jigsaw-Code/outline-sdk v0.0.18-0.20241106233708-faffebb12629/go.mod h1:CFDKyGZA4zatKE4vMLe8TyQpZCyINOeRFbMAmYHxodw=
 github.com/Psiphon-Inc/rotate-safe-writer v0.0.0-20210303140923-464a7a37606e h1:NPfqIbzmijrl0VclX2t8eO5EPBhqe47LLGKpRrcVjXk=
 github.com/Psiphon-Inc/rotate-safe-writer v0.0.0-20210303140923-464a7a37606e/go.mod h1:ZdY5pBfat/WVzw3eXbIf7N1nZN0XD5H5+X8ZMDWbCs4=
 github.com/Psiphon-Labs/bolt v0.0.0-20200624191537-23cedaef7ad7 h1:Hx/NCZTnvoKZuIBwSmxE58KKoNLXIGG6hBJYN7pj9Ag=
@@ -22,8 +20,8 @@ github.com/Psiphon-Labs/psiphon-tunnel-core v1.0.11-0.20240619172145-03cade11f64
 github.com/Psiphon-Labs/psiphon-tunnel-core v1.0.11-0.20240619172145-03cade11f647/go.mod h1:Z5txHi6IF67uDg206QnSxkgE1I3FJUDDJ3n0pa+bKRs=
 github.com/Psiphon-Labs/quic-go v0.0.0-20240424181006-45545f5e1536 h1:pM5ex1QufkHV8lDR6Tc1Crk1bW5lYZjrFIJGZNBWE9k=
 github.com/Psiphon-Labs/quic-go v0.0.0-20240424181006-45545f5e1536/go.mod h1:2MTiPsgoOqWs3Bo6Xr3ElMBX6zzfjd3YkDFpQJLwHdQ=
-github.com/alamar/outline-sdk v1.0.1 h1:sIkSOAWWWJLh4WZeK+XaoT/ONb1vzuskRDnrYo8IT4o=
-github.com/alamar/outline-sdk v1.0.1/go.mod h1:1KdmfXCnd8f1ZhH4lB0B9EX6uAaNvhCPZS2F7c+n9W4=
+github.com/alamar/outline-sdk v1.0.2 h1:l+1NiW9wZ4bYhyc/pi9jH3bsfkvLq8eC0ibmXczNWdE=
+github.com/alamar/outline-sdk v1.0.2/go.mod h1:uKH0QA7jyDHGoSGMZm/7JPMwIEWfd9tl5OrmoOdKEX8=
 github.com/andybalholm/brotli v1.0.5 h1:8uQZIdzKmjc/iuPu7O2ioW48L81FgatrcpfFmiq/cCs=
 github.com/andybalholm/brotli v1.0.5/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
 github.com/armon/go-proxyproto v0.0.0-20180202201750-5b7edb60ff5f h1:SaJ6yqg936TshyeFZqQE+N+9hYkIeL9AMr7S4voCl10=

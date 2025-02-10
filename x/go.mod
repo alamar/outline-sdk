@@ -19,13 +19,12 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 )
 
-require github.com/alamar/outline-sdk v1.0.2
+require github.com/alamar/outline-sdk v1.0.3
 
 require (
 	filippo.io/bigmod v0.0.1 // indirect
 	filippo.io/keygen v0.0.0-20230306160926-5201437acf8e // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20170702084017-28f7e881ca57 // indirect
-	github.com/Jigsaw-Code/outline-sdk v0.0.18-0.20241106233708-faffebb12629 // indirect
 	github.com/Psiphon-Labs/bolt v0.0.0-20200624191537-23cedaef7ad7 // indirect
 	github.com/Psiphon-Labs/goptlib v0.0.0-20200406165125-c0e32a7a3464 // indirect
 	github.com/Psiphon-Labs/psiphon-tls v0.0.0-20240424193802-52b2602ec60c // indirect

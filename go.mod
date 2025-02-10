@@ -3,7 +3,6 @@ module github.com/alamar/outline-sdk
 go 1.20
 
 require (
-	github.com/Jigsaw-Code/outline-sdk v0.0.0-00010101000000-000000000000
 	github.com/eycorsican/go-tun2socks v1.16.11
 	github.com/google/go-licenses v1.6.0
 	github.com/google/gopacket v1.1.19
@@ -46,4 +45,4 @@ require (
 
 replace github.com/eycorsican/go-tun2socks => github.com/kayrus/go-tun2socks v1.16.20
 
-replace github.com/Jigsaw-Code/outline-sdk => github.com/alamar/outline-sdk v1.0.2
+replace github.com/Jigsaw-Code/outline-sdk => github.com/alamar/outline-sdk v1.0.3
