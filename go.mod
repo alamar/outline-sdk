@@ -45,4 +45,4 @@ require (
 
 replace github.com/eycorsican/go-tun2socks => github.com/kayrus/go-tun2socks v1.16.20
 
-replace github.com/Jigsaw-Code/outline-sdk => github.com/alamar/outline-sdk v1.0.3
+replace github.com/Jigsaw-Code/outline-sdk => github.com/alamar/outline-sdk v1.0.4
